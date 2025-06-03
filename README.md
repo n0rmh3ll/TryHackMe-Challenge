@@ -9,7 +9,7 @@ For the next 30 days, I’ll be solving one TryHackMe room per day and documenti
 
 - 🔐 One room per day  
 - 📝 Daily write-ups with steps, commands, and explanations  
-- 💡 Learning areas: Web, Network, OSINT, PrivEsc, Forensics, and more
+- 💡 Learning areas: Web, Network, Active Directory, PrivEsc, Forensics, and more
 
 ---
 
