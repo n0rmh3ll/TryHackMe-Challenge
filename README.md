@@ -3,6 +3,8 @@
 Welcome to my **TryHackMe 30-Day Challenge**!  
 For the next 30 days, I’ll be solving one TryHackMe room per day and documenting my progress here.
 
+Started : 7/6/2025 - Ended : TBA
+
 ---
 
 ## 📅 Challenge Plan
