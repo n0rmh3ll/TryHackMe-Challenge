@@ -23,3 +23,6 @@ Day-01-Room-Name/
 ├── solution.md
 └── screenshots/
 ```
+### Completed Rooms (Quick Link)
+
+* [crocc-crew - Day 1](https://github.com/n0rmh3ll/TryHackMe-Challenge/blob/main/Writeups/Day-1-crocc-crew/solution.md)
